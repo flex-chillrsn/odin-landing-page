@@ -12,20 +12,48 @@ header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		border: 1px solid black;
-		padding-left: 100px;
-		padding-right: 100px;
 		background-color: grey;
-		color: white;
 }
 
+.main-title, header {
+	padding-left: 180px;
+	padding-right: 180px;
+	padding-bottom: 50px;
+}
+
+.main-title, header {
+	background-color: #212936;
+	color: white;}
+
+.main-title {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	border: 1px solid red;
+}
+
+.left-title {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+.left-title h1 {
+	font-size: 40px;
+}
+
+.right-title {
+	background-color: grey;
+	justify-content: space-between;
+	align-self: center;
+	padding: 100px;
+}
 
 .navbar ul{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
 		align-items: center;
-		border: 2px solid black;
 		color: lightgrey;
 }
 
