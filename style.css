@@ -29,7 +29,7 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: baseline;
-	border: 1px solid red;
+	gap: 50px;
 }
 
 .left-title {
@@ -47,6 +47,48 @@ header {
 	justify-content: space-between;
 	align-self: center;
 	padding: 100px;
+}
+
+.some-random-info {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.rnd-content-container {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin: 30px;
+	list-style: none;
+}
+
+.rnd-content-container li{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.sign-up-button {
+	width: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 8px 16px;
+	border-radius: 8px;
+	background: royalblue;
+	border-color: royalblue;
+}
+
+.img-container {
+	border: 3px solid royalblue;
+	height: 120px;
+	width: 120px;
+	border-radius: 8px;
 }
 
 .navbar ul{
