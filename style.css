@@ -52,7 +52,7 @@ header {
 .some-random-info {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 50px;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -60,17 +60,22 @@ header {
 .rnd-content-container {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 50px;
-	margin: 30px;
 	list-style: none;
+	border: 1px solid red;
 }
 
 .rnd-content-container li{
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	width: 200px;
+	border: 1px solid green;
 }
 
 .sign-up-button {
