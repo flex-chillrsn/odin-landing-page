@@ -64,7 +64,6 @@ header {
 	justify-content: center;
 	gap: 50px;
 	list-style: none;
-	border: 1px solid red;
 }
 
 .rnd-content-container li{
@@ -75,7 +74,29 @@ header {
 	align-items: center;
 	text-align: center;
 	width: 200px;
-	border: 1px solid green;
+}
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+	background-color: #E5E6EA;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.quote-main {
+	display: flex;
+	min-width: 600px;
+	justify-content: center;
+	border: 1px solid blue;
+}
+
+.originator {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 30px;
+	border: 1px solid red;
 }
 
 .sign-up-button {
