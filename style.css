@@ -57,6 +57,10 @@ header {
 	justify-content: space-between;
 }
 
+.some-random-info h1{
+	text-align: center;
+}
+
 .rnd-content-container {
 	display: flex;
 	flex-direction: row;
