@@ -58,6 +58,7 @@ ul {
 	background-color: #212936;
 	color: white;
 	justify-content: center;
+	padding: 10px;
 }
 
 
@@ -82,6 +83,7 @@ ul {
 	justify-content: space-between;
 	align-self: center;
 	padding: 100px;
+	margin: 5px;
 }
 
 .some-random-info {
@@ -138,6 +140,7 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 80px;
+	margin-left: 80px;
 	/* border: 1px solid red; */
 }
 
