@@ -39,13 +39,22 @@ body {
 	align-items: center;
 	color: lightgrey;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	/* border: 1px solid red; */
+}
+
+a {
+	color: lightgrey;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: white;
 }
 
 @media screen and (max-width: 400px){
 	div.navbar ul {
-		justify-content: space-evenly;
+		justify-content: space-around;
 		}
 	}
 
